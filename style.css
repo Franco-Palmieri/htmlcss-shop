@@ -29,7 +29,7 @@
     background-color: blue;
     position: relative;
 }
-.terzo{
+.terzo, .sesto{
     margin-right: 0;
 }
 .sconto-50, .sconto-30{
@@ -77,4 +77,13 @@
     width: 100%;
     height: 60px;
     background-color: greenyellow;
+}
+p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.prezzo{
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
 }
