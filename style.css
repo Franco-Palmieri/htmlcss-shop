@@ -6,7 +6,6 @@
 }
 .container{
     width: 940px;
-    background-color: aqua;
     margin: 50px auto;
 }
 .clearfix{
@@ -20,13 +19,11 @@
 .contenitore-{
     width: 300px;
     height: 500px;
-    border: 1px solid black;
     margin-right: 20px;
 }
 .foto-{
     width: 300px;
     height: 400px;
-    background-color: blue;
     position: relative;
 }
 .terzo, .sesto{
@@ -104,5 +101,45 @@ p{
 }
 .seconda{
     background-image: url(./img/2.webp);
+    background-size: cover;
+}
+.terza{
+    background-image: url(./img/3.webp);
+    background-size: cover;
+}
+.quarta{
+    background-image: url(./img/4.webp);
+    background-size: cover;
+}
+.quinta{
+    background-image: url(./img/5.webp);
+    background-size: cover;
+}
+.sesta{
+    background-image: url(./img/6.webp);
+    background-size: cover;
+}
+.prima:hover{
+    background-image: url(./img/1-hover.webp);
+    background-size: cover;
+}
+.seconda:hover{
+    background-image: url(./img/2-hover.webp);
+    background-size: cover;
+}
+.terza:hover{
+    background-image: url(./img/3-hover.webp);
+    background-size: cover;
+}
+.quarta:hover{
+    background-image: url(./img/4-hover.webp);
+    background-size: cover;
+}
+.quinta:hover{
+    background-image: url(./img/5-hover.webp);
+    background-size: cover;
+}
+.sesta:hover{
+    background-image: url(./img/6-hover.webp);
     background-size: cover;
 }
