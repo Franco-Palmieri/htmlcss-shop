@@ -4,10 +4,9 @@
     padding: 0;
 }
 .container{
-    width: 700px;
-    height: 750px;
-    background-color: red;
-    margin: 90px auto;
+    width: 640px;
+    background-color: aqua;
+    margin: 50px auto;
 }
 .clearfix{
     content: "";
@@ -17,34 +16,26 @@
 .fl{
     float: left;
 }
-
+.contenitore-{
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
 .foto-{
-    background-color: blue;
     width: 200px;
     height: 300px;
-    border: 1px solid black;
-    margin-right: 50px;
-    margin-bottom: 100px;
+    background-color: blue;
     position: relative;
 }
-.terza, .sesta{
+.terzo{
     margin-right: 0;
 }
 .sconto-50{
-    background-color: red;
     width: 40px;
     height: 20px;
+    background-color: red;
     position: absolute;
+    bottom: 10px;
     left: 0;
-    bottom: 10px;
-    color: white;
-}
-.sostenibilità{
-    width: 80px;
-    height: 20px;
-    background-color: greenyellow;
-    position: absolute;
-    left: 50px;
-    bottom: 10px;
-    color: white;
 }
