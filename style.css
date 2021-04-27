@@ -5,10 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    width: 940px;
-    margin: 50px auto;
+    width: 1200px;
+    margin: 0 auto;
 }
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -17,8 +17,9 @@
     float: left;
 }
 .contenitore-{
+    width: calc(100% / 3) - 30px;
     height: 500px;
-    margin-right: 20px;
+    margin: 15px;
 }
 .foto-{
     width: 300px;
